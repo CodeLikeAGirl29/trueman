@@ -4,7 +4,7 @@ import Layout from "@/layout/Layout";
 import Link from "next/link";
 import { useContext, useEffect, useState } from "react";
 
-const Index = () => {
+const Index = ({ posts }) => {
 	const [state, setState] = useState(0);
 	const [errorMsg, setErrorMsg] = useState("");
 	const { banner_image_function, page_info_function } = useContext(context);
@@ -53,7 +53,7 @@ const Index = () => {
 						data-scroll-offset={40}
 					>
 						<h6>
-							Design <span className="trm-number">296</span>
+							Code <span className="trm-number">12</span>
 						</h6>
 						<div className="trm-divider trm-mb-20 trm-mt-20" />
 						<a href="#." className="trm-label">
@@ -70,7 +70,7 @@ const Index = () => {
 						data-scroll-offset={40}
 					>
 						<h6>
-							Lifestyle <span className="trm-number">22</span>
+							Guide <span className="trm-number">22</span>
 						</h6>
 						<div className="trm-divider trm-mb-20 trm-mt-20" />
 						<a href="#." className="trm-label">
@@ -87,7 +87,7 @@ const Index = () => {
 						data-scroll-offset={40}
 					>
 						<h6>
-							Fashion <span className="trm-number">43</span>
+							Blog <span className="trm-number">43</span>
 						</h6>
 						<div className="trm-divider trm-mb-20 trm-mt-20" />
 						<a href="#." className="trm-label">
@@ -104,7 +104,7 @@ const Index = () => {
 						data-scroll-offset={40}
 					>
 						<h6>
-							Art <span className="trm-number">64</span>
+							Tech <span className="trm-number">64</span>
 						</h6>
 						<div className="trm-divider trm-mb-20 trm-mt-20" />
 						<a href="#." className="trm-label">
@@ -132,23 +132,21 @@ const Index = () => {
 					>
 						<Link legacyBehavior href="/publication">
 							<a className="trm-cover-frame trm-anima-link">
-								<img src="img/blog/b1.jpg" alt="cover" />
+								<img src="img/blog/b1.png" alt="cover" />
 							</a>
 						</Link>
 						<div className="trm-card-descr">
 							<div className="trm-label trm-category trm-mb-20">
-								<a href="#.">Lifestyle</a>
+								<a href="#.">Career</a>
 							</div>
 							<h5 className="trm-mb-20">
 								<Link legacyBehavior href="/publication">
-									<a className="trm-anima-link">
-										Make a resume for yourself today
-									</a>
+									<a className="trm-anima-link">Hire Me?</a>
 								</Link>
 							</h5>
 							<div className="trm-divider trm-mb-20 trm-mt-20" />
 							<ul className="trm-card-data trm-label">
-								<li>17 JULY</li>
+								<li>17 DEC</li>
 								<li>14:32</li>
 								<li>Lindsey H.</li>
 							</ul>
@@ -170,16 +168,16 @@ const Index = () => {
 						</Link>
 						<div className="trm-card-descr">
 							<div className="trm-label trm-category trm-mb-20">
-								<a href="#.">Lifestyle</a>
+								<a href="#.">Code</a>
 							</div>
 							<h5 className="trm-mb-20">
 								<Link legacyBehavior href="/publication">
-									<a className="trm-anima-link">Create your own blog</a>
+									<a className="trm-anima-link">Frontend Development</a>
 								</Link>
 							</h5>
 							<div className="trm-divider trm-mb-20 trm-mt-20" />
 							<ul className="trm-card-data trm-label">
-								<li>17 JULY</li>
+								<li>13 SEPT</li>
 								<li>14:32</li>
 								<li>Lindsey H.</li>
 							</ul>
@@ -205,7 +203,7 @@ const Index = () => {
 					>
 						<Link legacyBehavior href="/publication">
 							<a className="trm-cover-frame trm-anima-link">
-								<img src="img/blog/b3.jpg" alt="cover" />
+								<img src="img/blog/b3.png" alt="cover" />
 							</a>
 						</Link>
 						<div className="trm-card-descr">
@@ -214,13 +212,13 @@ const Index = () => {
 							</div>
 							<h5 className="trm-mb-20">
 								<Link legacyBehavior href="/publication">
-									<a className="trm-anima-link">Create your own blog</a>
+									<a className="trm-anima-link">What I Love About Gatsby.js</a>
 								</Link>
 							</h5>
 							<div className="trm-divider trm-mb-20 trm-mt-20" />
 							<ul className="trm-card-data trm-label">
-								<li>17 JULY</li>
-								<li>14:32</li>
+								<li>17 AUG</li>
+								<li>09:32</li>
 								<li>Lindsey H.</li>
 							</ul>
 						</div>
@@ -236,7 +234,7 @@ const Index = () => {
 					>
 						<Link legacyBehavior href="/publication">
 							<a className="trm-cover-frame trm-anima-link">
-								<img src="img/blog/b4.jpg" alt="cover" />
+								<img src="img/blog/b4.png" alt="cover" />
 							</a>
 						</Link>
 						<div className="trm-card-descr">
@@ -572,4 +570,16 @@ const Index = () => {
 		</Layout>
 	);
 };
+
+export const getStaticPaths = async () => {
+	const paths = getAllPublished("posts").map(({ slug }) => ({
+		params: { slug },
+	}));
+
+	return {
+		paths,
+		fallback: false,
+	};
+};
+
 export default Index;

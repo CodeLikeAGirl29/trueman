@@ -90,7 +90,7 @@ const ContactForm = () => {
 			</div>
 			<div className="col-lg-12">
 				<div className="trm-contact-card">
-					<form>
+					<form action="https://formspree.io/f/xoqzngno" method="POST">
 						<input type="text" placeholder="Name" />
 						<input type="email" placeholder="Email" />
 						<textarea rows={6} placeholder="Message" defaultValue={""} />

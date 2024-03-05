@@ -21,16 +21,18 @@ const Price = () => {
 					{/* card header end */}
 					{/* price */}
 					<div className="trm-price-number">
-						<sup>$</sup>29<sup>h</sup>
+						<sup>$</sup>299<sup></sup>
 					</div>
 					{/* price end */}
 					<div className="trm-divider trm-mb-40 trm-mt-40" />
 					{/* price list */}
 					<ul className="trm-price-list">
-						<li className="trm-label">Amet lorem.</li>
-						<li className="trm-label">Dolor ipsum</li>
-						<li className="trm-label trm-label-light">Sit amet</li>
-						<li className="trm-label trm-label-light">Lorem dolor</li>
+						<li className="trm-label">Responsive Design.</li>
+						<li className="trm-label">Performance Optimization.</li>
+						<li className="trm-label trm-label-light">Maintenance & Support</li>
+						<li className="trm-label trm-label-light">
+							Integration with Backend Systems.
+						</li>
 					</ul>
 					{/* price list end */}
 					<a data-fancybox="" href="#trm-order" className="trm-btn">
@@ -48,21 +50,21 @@ const Price = () => {
 				>
 					{/* card header */}
 					<div className="trm-price-header">
-						<h6>Full Time</h6>
+						<h6>Full Site + Service</h6>
 					</div>
 					{/* card header end */}
 					{/* price */}
 					<div className="trm-price-number">
-						<sup>$</sup>2999<sup>h</sup>
+						<sup>$</sup>499<sup></sup>
 					</div>
 					{/* price end */}
 					<div className="trm-divider trm-mb-40 trm-mt-40" />
 					{/* price list */}
 					<ul className="trm-price-list">
-						<li className="trm-label">Amet lorem.</li>
-						<li className="trm-label">Dolor ipsum</li>
-						<li className="trm-label">Sit amet</li>
-						<li className="trm-label">Lorem dolor</li>
+						<li className="trm-label">Maitenance & Support.</li>
+						<li className="trm-label">Integration with Backend Systems.</li>
+						<li className="trm-label">Changes to Site.</li>
+						<li className="trm-label">Performance Optimization.</li>
 					</ul>
 					{/* price list end */}
 					<a data-fancybox="" href="#trm-order" className="trm-btn">

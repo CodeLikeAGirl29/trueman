@@ -164,7 +164,7 @@ const Index = () => {
 					>
 						<Link legacyBehavior href="/publication">
 							<a className="trm-cover-frame trm-anima-link">
-								<img src="img/blog/b3.jpg" alt="cover" />
+								<img src="img/blog/b3.png" alt="cover" />
 							</a>
 						</Link>
 						<div className="trm-card-descr">
@@ -425,7 +425,7 @@ const Index = () => {
 							<Link legacyBehavior href="/publication">
 								<a className="trm-op-top trm-anima-link">
 									<span className="trm-op-cover">
-										<img src="img/blog/b3.jpg" alt="cover" />
+										<img src="img/blog/b3.png" alt="cover" />
 									</span>
 									<h6 className="trm-op-title">
 										Create your own beauty blog with
