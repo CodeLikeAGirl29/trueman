@@ -6,7 +6,7 @@ import { useContext, useEffect } from "react";
 const Index = () => {
 	const { banner_image_function, page_info_function } = useContext(context);
 	useEffect(() => {
-		banner_image_function("/img/banner3.jpg");
+		banner_image_function("/img/banner2.png");
 		page_info_function(
 			"Welcome to<br>my personal blog",
 			"Newsletter",
@@ -89,7 +89,7 @@ const Index = () => {
 					>
 						<Link legacyBehavior href="/publication">
 							<a className="trm-cover-frame trm-anima-link">
-								<img src="img/blog/b1.jpg" alt="cover" />
+								<img src="img/blog/b1.png" alt="cover" />
 							</a>
 						</Link>
 						<div className="trm-card-descr">
@@ -389,7 +389,7 @@ const Index = () => {
 							<Link legacyBehavior href="/publication">
 								<a className="trm-op-top trm-anima-link">
 									<span className="trm-op-cover">
-										<img src="img/blog/b1.jpg" alt="cover" />
+										<img src="img/blog/b1.png" alt="cover" />
 									</span>
 									<h6 className="trm-op-title">
 										Create your own beauty blog with
@@ -513,7 +513,7 @@ const Index = () => {
 							<Link legacyBehavior href="/publication">
 								<a className="trm-op-top trm-anima-link">
 									<span className="trm-op-cover">
-										<img src="img/blog/b7.jpg" alt="cover" />
+										<img src="img/blog/b9.jpg" alt="cover" />
 									</span>
 									<h6 className="trm-op-title">
 										Make a resume for yourself today
@@ -531,7 +531,7 @@ const Index = () => {
 							<Link legacyBehavior href="/publication">
 								<a className="trm-op-top trm-anima-link">
 									<span className="trm-op-cover">
-										<img src="img/blog/b8.jpg" alt="cover" />
+										<img src="img/blog/b7.jpg" alt="cover" />
 									</span>
 									<h6 className="trm-op-title">
 										Create your own beauty blog with

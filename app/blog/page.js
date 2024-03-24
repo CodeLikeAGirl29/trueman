@@ -208,7 +208,7 @@ const Index = ({ posts }) => {
 						</Link>
 						<div className="trm-card-descr">
 							<div className="trm-label trm-category trm-mb-20">
-								<a href="#.">Lifestyle</a>
+								<a href="#.">Frameworks</a>
 							</div>
 							<h5 className="trm-mb-20">
 								<Link legacyBehavior href="/publication">
@@ -234,18 +234,16 @@ const Index = ({ posts }) => {
 					>
 						<Link legacyBehavior href="/publication">
 							<a className="trm-cover-frame trm-anima-link">
-								<img src="img/blog/b4.png" alt="cover" />
+								<img src="img/blog/b4.jpg" alt="cover" />
 							</a>
 						</Link>
 						<div className="trm-card-descr">
 							<div className="trm-label trm-category trm-mb-20">
-								<a href="#.">Lifestyle</a>
+								<a href="#.">Guide</a>
 							</div>
 							<h5 className="trm-mb-20">
 								<Link legacyBehavior href="/publication">
-									<a className="trm-anima-link">
-										Make a resume for yourself today
-									</a>
+									<a className="trm-anima-link">HTML/CSS Tips & Hacks</a>
 								</Link>
 							</h5>
 							<div className="trm-divider trm-mb-20 trm-mt-20" />
@@ -272,16 +270,18 @@ const Index = ({ posts }) => {
 						</Link>
 						<div className="trm-card-descr">
 							<div className="trm-label trm-category trm-mb-20">
-								<a href="#.">Lifestyle</a>
+								<a href="#.">Blog</a>
 							</div>
 							<h5 className="trm-mb-20">
 								<Link legacyBehavior href="/publication">
-									<a className="trm-anima-link">Create your own blog</a>
+									<a className="trm-anima-link">
+										What&apos;s jQuery & Javascript All About?
+									</a>
 								</Link>
 							</h5>
 							<div className="trm-divider trm-mb-20 trm-mt-20" />
 							<ul className="trm-card-data trm-label">
-								<li>17 JULY</li>
+								<li>17 FEB</li>
 								<li>14:32</li>
 								<li>Lindsey H.</li>
 							</ul>
@@ -303,12 +303,12 @@ const Index = ({ posts }) => {
 						</Link>
 						<div className="trm-card-descr">
 							<div className="trm-label trm-category trm-mb-20">
-								<a href="#.">Lifestyle</a>
+								<a href="#.">Tools</a>
 							</div>
 							<h5 className="trm-mb-20">
 								<Link legacyBehavior href="/publication">
 									<a className="trm-anima-link">
-										Make a resume for yourself today
+										Better time management at home
 									</a>
 								</Link>
 							</h5>
@@ -340,7 +340,9 @@ const Index = ({ posts }) => {
 							</div>
 							<h5 className="trm-mb-20">
 								<Link legacyBehavior href="/publication">
-									<a className="trm-anima-link">Create your own blog</a>
+									<a className="trm-anima-link">
+										Async Programming in Javascript
+									</a>
 								</Link>
 							</h5>
 							<div className="trm-divider trm-mb-20 trm-mt-20" />
@@ -367,18 +369,16 @@ const Index = ({ posts }) => {
 						</Link>
 						<div className="trm-card-descr">
 							<div className="trm-label trm-category trm-mb-20">
-								<a href="#.">Lifestyle</a>
+								<a href="#.">Guide</a>
 							</div>
 							<h5 className="trm-mb-20">
 								<Link legacyBehavior href="/publication">
-									<a className="trm-anima-link">
-										Make a resume for yourself today
-									</a>
+									<a className="trm-anima-link">Productivity</a>
 								</Link>
 							</h5>
 							<div className="trm-divider trm-mb-20 trm-mt-20" />
 							<ul className="trm-card-data trm-label">
-								<li>17 JULY</li>
+								<li>17 DEC</li>
 								<li>14:32</li>
 								<li>Lindsey H.</li>
 							</ul>
@@ -442,9 +442,7 @@ const Index = ({ posts }) => {
 									<span className="trm-op-cover">
 										<img src="img/blog/b5.jpg" alt="cover" />
 									</span>
-									<h6 className="trm-op-title">
-										Make a resume for yourself today
-									</h6>
+									<h6 className="trm-op-title">jQuery & JavaScript Tips</h6>
 								</a>
 							</Link>
 							<div className="trm-divider trm-mb-15 trm-mt-20" />
@@ -460,7 +458,9 @@ const Index = ({ posts }) => {
 									<span className="trm-op-cover">
 										<img src="img/blog/b6.jpg" alt="cover" />
 									</span>
-									<h6 className="trm-op-title">Create your own blog</h6>
+									<h6 className="trm-op-title">
+										Declutter your desk & keep it that way!
+									</h6>
 								</a>
 							</Link>
 							<div className="trm-divider trm-mb-15 trm-mt-20" />
@@ -482,10 +482,10 @@ const Index = ({ posts }) => {
 							<Link legacyBehavior href="/publication">
 								<a className="trm-op-top trm-anima-link">
 									<span className="trm-op-cover">
-										<img src="img/blog/b7.jpg" alt="cover" />
+										<img src="img/blog/b9.jpg" alt="cover" />
 									</span>
 									<h6 className="trm-op-title">
-										Make a resume for yourself today
+										The Power of Prioritization...
 									</h6>
 								</a>
 							</Link>
@@ -500,14 +500,16 @@ const Index = ({ posts }) => {
 							<Link legacyBehavior href="/publication">
 								<a className="trm-op-top trm-anima-link">
 									<span className="trm-op-cover">
-										<img src="img/blog/b8.jpg" alt="cover" />
+										<img src="img/blog/b7.jpg" alt="cover" />
 									</span>
-									<h6 className="trm-op-title">Create your own blog</h6>
+									<h6 className="trm-op-title">
+										The Power of Prioritization..
+									</h6>
 								</a>
 							</Link>
 							<div className="trm-divider trm-mb-15 trm-mt-20" />
 							<ul className="trm-card-data trm-label">
-								<li>17 JULY</li>
+								<li>17 MAY</li>
 								<li>14:32</li>
 								<li>Lindsey H.</li>
 							</ul>
@@ -519,13 +521,13 @@ const Index = ({ posts }) => {
 										<img src="img/blog/b5.jpg" alt="cover" />
 									</span>
 									<h6 className="trm-op-title">
-										Make a resume for yourself today
+										Async Programming in JavaScript
 									</h6>
 								</a>
 							</Link>
 							<div className="trm-divider trm-mb-15 trm-mt-20" />
 							<ul className="trm-card-data trm-label">
-								<li>17 JULY</li>
+								<li>17 MAY</li>
 								<li>14:32</li>
 								<li>Lindsey H.</li>
 							</ul>
@@ -547,12 +549,16 @@ const Index = ({ posts }) => {
 					<div className="col-lg-8">
 						{state == 2 ? (
 							<p className="font-medium mt-4 text-xl text-green-800">
-								Thanks for subscribing, you have successfully subscribed to my
-								newsletter!
+								Thank you, you have successfully subscribed to my newsletter!
 							</p>
 						) : (
 							<form onSubmit={subscribe}>
-								<input type="email" placeholder="Email" required />
+								<input
+									type="email"
+									placeholder="Email"
+									aria-label="email"
+									required
+								/>
 								<button className="trm-btn" type="submit">
 									<i className="fas fa-paper-plane" />
 								</button>

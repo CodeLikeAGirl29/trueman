@@ -18,7 +18,7 @@ const Publications = () => {
 				>
 					<Link legacyBehavior href="/publication">
 						<a className="trm-cover-frame trm-anima-link">
-							<img src="/img/blog/b1.jpg" alt="cover" />
+							<img src="/img/blog/b1.png" alt="cover" />
 						</a>
 					</Link>
 					<div className="trm-card-descr">
